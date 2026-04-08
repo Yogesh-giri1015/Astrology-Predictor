@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astrology Predictor</title>
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+<div class="baba">
+
+  <div id="photo">
+    <img src="sidhu.jpg" alt="imgfound">
+  </div>
+<div class="container">
+  <h1>🔮 Astrology Predictor</h1>
+  <form id="astroform">
+  <label for="name">First Name:</label>
+  <input type="text" id="name" name="name" required placeholder="First Name">
+ 
+  <label for="surname">Surname</label>
+  <input type="text" id="surname" name="surname" required placeholder="Surname">
+
+  <label for="day">Day</label>
+  <input type="number" id="day" name="day" min="1" max="31" required placeholder="Day">
+
+  <label for="month">Month</label>
+  <input type="number" id="month" name="month" min="1" max="12" required placeholder="Month">
+
+  <label for="year">Year</label>
+  <input type="number" id="year" name="year" min="1900" max="2025" required placeholder="Year">
+
+  <button type="submit">Get Prediction</button>
+</form>
+  <div class="result" id="result"></div>
+</div>
+</div>
+<script src="first.js"></script>
+
+</body>
+</html>
