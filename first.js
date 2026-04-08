@@ -133,7 +133,7 @@ form.addEventListener('submit',(event)=>{
 
    const third_message= compliments[Day-1];
 
-   let index=Math.floor(Math.random()*20)
+   let index=(Day*Month*Year)%20;
    const forth_message= victimCompliments[index];
 
    index=(Name.length*SurName.length*Year)%30
